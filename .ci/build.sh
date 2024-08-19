@@ -17,7 +17,7 @@ set -eux
 #############################################################
 
 # Build codeblocks
-git clone https://github.com/arnholm/codeblocks_sfmirror.git
+git clone https://github.com/stahta01/codeblocks_sfmirror.git --branch testing --single-branch
 pushd codeblocks_sfmirror/
 
 # Patch build
